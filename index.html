@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="packages.html">Packages</a>
+                </li>
+                <li>
+                    <a href="places.html">Places</a>
+                </li>
+                <li>
+                    <a href="index.html">Activities</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+                        <h2>Activities</h2>
+                        <hr style="">
+                        <div class="row">
+                            <div class="col-lg-4 ">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/packages4.png" alt="Card image cap">
+                                    <p class="title">Whale Watching</p>
+                                        <div class="overlay"></div>
+                                        <Button class="img-btn1 btn btn-default btn-xs"><i class="fa fa-edit"></i></Button>
+                                        <Button class="img-btn2 btn btn-danger btn-xs"><i class="fa fa-trash"></i></Button>
+                                </div>
+                            </div>
+                             <div class="col-lg-4 ">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/packages5.png" alt="Card image cap">
+                                    <p class="title">Mountain Climbing</p>
+                                        <div class="overlay"></div>
+                                        <Button class="img-btn1 btn btn-default btn-xs"><i class="fa fa-edit"></i></Button>
+                                        <Button class="img-btn2 btn btn-danger btn-xs"><i class="fa fa-trash"></i></Button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/packages6.png" alt="Card image cap">
+                                    <p class="title">Water Rafting </p>
+                                        <div class="overlay"></div>
+                                        <Button class="img-btn1 btn btn-default btn-xs"><i class="fa fa-edit"></i></Button>
+                                        <Button class="img-btn2 btn btn-danger btn-xs"><i class="fa fa-trash"></i></Button>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
