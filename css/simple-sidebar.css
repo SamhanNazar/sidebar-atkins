@@ -17,9 +17,6 @@ body {
   padding-left: 250px;
 }
 
-#wrapper.toggled {
-  padding-left: 250px;
-}
 
 #sidebar-wrapper {
   z-index: 1000;
@@ -36,22 +33,11 @@ body {
   transition: all 0.5s ease;
 }
 
-#wrapper.toggled #sidebar-wrapper {
-  width: 250px;
-}
-
 #page-content-wrapper {
-  width: 100%;
+  width: 85%;
   position: absolute;
   padding: 15px;
-  margin-right: -550px;
 }
-
-#wrapper.toggled #page-content-wrapper {
-  position: absolute;
-  margin-right: -250px;
-}
-
 
 /* Sidebar Styles */
 
